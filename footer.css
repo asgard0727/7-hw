@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.footer{
+    width: 100%;
+    min-height: 320px;
+    background-color: #222;
+    margin-top: 100px;
+}
+.title{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+.info{
+    color: white;
+    width: 50%;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 1.8;
+    border: 1px solid red;
+}
+.icons{
+    text-align: center;
+    padding-top: 30px;
+}
+.icons i{
+    color: white;
+    font-size: 22px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+}
+.footer__bottom{
+    width: 100%;
+    height: 80px;
+    background: black;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+span{
+    color: white;
+    font-size: 20px;
+
+}
+a{
+    text-decoration: none;
+    flex: 1;
+    margin-left: 15px;
+    font-size: 20px;
+    color: dodgerblue;
+}
+.collection{
+    display: flex;
+
+}
+.items{
+    list-style: none;
+    color: white;
+    text-indent: 10px;
+    font-size: 19px;
+
+}
